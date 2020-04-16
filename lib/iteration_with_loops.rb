@@ -7,7 +7,7 @@ def join_nested_strings(src)
   element_index = 0 
   var = ""
   while element_index < src[row_index].count
-  if src[row_index][element_index].to_s == var.to_s
+  if src[row_index][element_index].to_s > var.to_s
     var = src[row_index][element_index]
   end
   element_index += 1 
