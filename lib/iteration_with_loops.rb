@@ -15,5 +15,5 @@ def join_nested_strings(src)
        new_array << string 
        row_index += 1 
 end
-  new_array
+  return new_array
 end
