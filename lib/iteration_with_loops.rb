@@ -13,8 +13,8 @@ def join_nested_strings(src)
         end
       element_index += 1 
   end
-       new_array << string 
+      # new_array << string 
        row_index += 1 
 end
-  return new_array
+  return string
 end
