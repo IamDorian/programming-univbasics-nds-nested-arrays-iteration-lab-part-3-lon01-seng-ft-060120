@@ -5,14 +5,14 @@ def join_nested_strings(src)
   row_index = 0 
   while row_index < src.count
   element_index = 0 
-  var = ""
+  string = ""
   while element_index < src[row_index].count
-  if src[row_index][element_index].to_s == var.to_s
-    var = src[row_index][element_index]
+  if src[row_index][element_index].count > string.count
+    string = src[row_index][element_index]
   end
   element_index += 1 
 end
-new_array << var 
+new_array << string 
 row_index += 1 
 end
 new_array
